@@ -8,7 +8,6 @@
     <None Include="wwwroot\css\styles.css" />
     <None Include="wwwroot\img\2DC8DA15-6443-41F6-BE46-97ECB83E7350.JPG" />
     <None Include="wwwroot\img\5195638.png" />
-    <None Include="wwwroot\index.html" />
     <None Include="wwwroot\js\lib\bootstrap\css\bootstrap-grid.css" />
     <None Include="wwwroot\js\lib\bootstrap\css\bootstrap-grid.css.map" />
     <None Include="wwwroot\js\lib\bootstrap\css\bootstrap-grid.min.css" />

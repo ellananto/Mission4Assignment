@@ -1,6 +1,7 @@
 ﻿
 // grade calculator
-$("#btnCalc").click(function () {
+$("#btnCalc").click(function(e) {
+    e.preventDefault();
     // calculate points
     points = (($("#txtMidtermExam").val() / 10) + ($("#txtFinalExam").val() / 10) + ($("#txtINTEX").val() / 10) + ($("#txtQuiz").val() / 10) + ($("#txtGroupProject").val() / 10) + ($("#txtAssignment").val() / 2));
 
@@ -44,5 +45,6 @@ $("#btnCalc").click(function () {
     else {
         $("#letterGrade").text("E");
     }
+
 
 });
