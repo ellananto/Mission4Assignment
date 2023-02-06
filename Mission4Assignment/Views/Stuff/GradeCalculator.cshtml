@@ -5,13 +5,13 @@
 
 }
 
-@model GradeCalculatorModel;
+@model GradeCalculatorModel
+
 <!-- Form for Grade Calculator -->
-<script src="~/js/lib/jquery/jquery-3.6.3.min.js"></script>
-<script src="~/js/lib/GradeCalculator.js"></script>
 
 <div>
     <fieldset>
+        <form method="post">
             <label style="padding-left:15px;" id="assignments">Assignments: </label>
             <input type="text" id="txtAssignment" asp-for="assignment" /><br /><br />
             <label style="padding-left:15px;" id="groupProject">Group Project: </label>
@@ -24,13 +24,11 @@
             <input type="text" id="txtFinalExam" asp-for="final" /><br /><br />
             <label style="padding-left:15px;" id="intex">INTEX: </label>
             <input type="text" id="txtINTEX" asp-for="intex" /><br /><br /><br />
-            <input id="btnCalc" type="submit" value="Calculate Score" />
+            <button id="btnCalc" type="submit">Calculate</button>
+        </form>
     </fieldset>
     <div asp-validation-summary="All"></div>
 </div>
 
 <p id="percentage"></p>
 <p id="letterGrade"></p>
-
-<script src="~/js/lib/jquery/jquery-3.6.3.min.js"></script>
-<script src="~/js/lib/GradeCalculator.js"></script>

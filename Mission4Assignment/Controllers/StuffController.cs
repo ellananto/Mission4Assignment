@@ -19,7 +19,7 @@ namespace Mission4Assignment.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult GradeCalculator(GradeCalculatorModel Model)
+        public IActionResult GradeCalculator(GradeCalculatorModel gcm)
         {
             return View();
         }
